@@ -4,11 +4,11 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: #0F172A;        /* the colour of the track zone */
+    background: #dce4c5;        /* the colour of the track zone */
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: rgba(30, 41, 59, 0.4);    /* the slider's colour */
+    background-color: #dce4c5;    /* the slider's colour */
     border-radius: 20px;       /* the slider's roundness */
     border: none;
   }
@@ -22,8 +22,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    background-color: #0F172A;
-    color: #F8FAFC;
+    background-color: #dce4c5;
+    color: #c1a36c;
 }
 
 h1, h2, p {
@@ -81,9 +81,9 @@ ul {
     width: 350px;
     height: 500px;
     transition: 0.2s;
-    background: rgba(30, 41, 59, 0.4);
+    background: #bec6b1ba;
     border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px #bec6b1ac;
 
 }
 
@@ -96,7 +96,7 @@ ul {
 }
 
 .card__text {
-    border-top: 1px solid rgba(14, 165, 233, 1);
+    border-top: 1px solid #c1a36c;
     width: inherit;
     display: flex;
     padding: 50px 0 20px;
@@ -130,7 +130,7 @@ ul {
 
 .card--creat:hover,
 .card:hover {
-    box-shadow: 0px 4px 10px rgba(14, 165, 233, 1);
+    box-shadow: 0px 4px 10px #c1a36c;
 }
 
 .creat-form {
@@ -149,9 +149,9 @@ ul {
     gap: 30px;
     flex-direction: column;
     align-items: center;
-    background: rgba(30, 41, 59, 0.4);
+    background: #bec6b1ba;
     border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px #bec6b1ba;
 }
 
 .form__inputs {
@@ -167,11 +167,11 @@ ul {
 }
 
 .form__input {
-    background: #0F172A;
+    background: #bec6b1ba;
     border-radius: 10px;
     padding: 10px;
     height: 30px;
-    color: #F8FAFC;
+    color: #c1a36c;
     font: inherit;
     border: none;
     width: 94%;
@@ -182,20 +182,20 @@ ul {
 }
 
 .form__text {
-    background: #0F172A;
+    background: #bec6b1ba;
     border-radius: 10px;
     padding: 10px;
-    color: #F8FAFC;
+    color: #c1a36c;
     font: inherit;
     border: none;
     width: 94%;
 }
 
 .form__button {
-    border: 1px solid rgba(14, 165, 233, 1);
-    background: #0F172A;
+    border: 1px solid #c1a36c;
+    background: #bec6b1ba;
     border-radius: 10px;
-    color: rgba(14, 165, 233, 1);
+    color: #c1a36c;
     padding: 10px;
     font: inherit;
     width: 200px;
@@ -206,7 +206,7 @@ ul {
 
 .form__button:hover {
     color: #F8FAFC;
-    background:  rgba(14, 165, 233, 1);
+    background:  #c1a36c;
 }
 
 .main {
@@ -214,9 +214,9 @@ ul {
 }
 
 .main__block {
-    background: rgba(30, 41, 59, 0.4);
+    background: #bec6b1ba;
     border-radius: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px #bec6b1ba;
     padding: 30px 80px;
     display: flex;
     flex-direction: column;
@@ -237,10 +237,10 @@ ul {
 
 .main__link {
     display: block;
-    border: 1px solid rgba(14, 165, 233, 1);
-    background: #0F172A;
+    border: 1px solid #c1a36c;
+    background: #bec6b1ba;
     border-radius: 10px;
-    color: rgba(14, 165, 233, 1);
+    color: #c1a36c;
     padding: 15px 10px;
     font: inherit;
     width: 200px;
@@ -250,6 +250,6 @@ ul {
 }
 
 .main__link:hover {
-    color: #F8FAFC;
-    background:  rgba(14, 165, 233, 1);
+    color: #de8f27;
+    background:  #c1a36c;
 }
